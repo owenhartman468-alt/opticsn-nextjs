@@ -5,7 +5,7 @@ export async function POST(request) {
     const body = await request.json();
 
     // Call FormSubmit.co from our server side to bypass browser CORS issues
-    const response = await fetch("https://opticsn.netlify.app/owenhartman468@gmail.com", {
+    const response = await fetch("https://opticsn-nextjs.vercel.app/owenhartman468@gmail.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
